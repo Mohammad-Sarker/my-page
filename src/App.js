@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme = {theme}>
-        <CustomBtn></CustomBtn>
+        <CustomBtn txt="hello world"/>
       </ThemeProvider>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
