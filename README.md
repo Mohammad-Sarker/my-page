@@ -1,2 +1,2 @@
 # my-page
-Basic webpage in React
+Template landing page in React.js
