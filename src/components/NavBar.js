@@ -54,7 +54,7 @@ function NavBar() {
                     Stats
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
-                    Players 
+                    Logistics 
                 </Typography>
                 <Typography variant="h6" className={classes.menuItem}>
                     Contact Us 
