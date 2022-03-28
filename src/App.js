@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { createTheme, ThemeProvider, makeStyles } from '@material-ui/core/styles';
-import CustomBtn from './components/CustomBtn'
+import NavBar from './components/NavBar'
 import './App.css';
 
 const theme = createTheme({
@@ -34,22 +34,8 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme = {theme}>
-        
+        <NavBar/>
       </ThemeProvider>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
